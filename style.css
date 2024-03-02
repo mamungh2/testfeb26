@@ -1,0 +1,88 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-size: 45px;
+    margin: 0;
+}
+.red{
+    color: red;
+}
+.top-banner{
+    background-image: url(media/image/bg/bg1.jpg);
+    background-size: 100% 100%;
+}
+.middle-banner{
+    background-image: url(media/image/bg/bg2.jpg);
+    background-size: 100% 100%;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.half-width{
+    width: 40%;
+    margin: 5%;
+    
+}
+.half-width img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, green);
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-top: 2%;
+    font-weight: 600;
+}
+.recipe-text{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+}
+.flex-recipe{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.third-width{
+    box-shadow: 0 0 15px gray;
+    padding: 1%;
+    margin: 1%;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.third-width img{
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+.third-width video{
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+.subscribe-area{
+    width: 50%;
+    margin: 4% auto;
+    padding: 3%;
+    background-color: cadetblue;
+    box-shadow: 0 0 10px gray;
+    border-radius: 10px;
+    border-left: 20px solid;
+    border-image: linear-gradient(yellow, blue);
+    border-image-slice: 1;
+}
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 2%;
+}
